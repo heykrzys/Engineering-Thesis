@@ -1,0 +1,13 @@
+[project]
+name = "engineering-thesis"
+version = "0.1.0"
+description = "Parametric variable-camber wing mechanism design"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib"
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
